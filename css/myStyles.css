@@ -1,0 +1,134 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #EFEFEF;
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h1 {
+  font-size: 36px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333; /* Color principal */
+}
+
+p {
+  font-size: 18px;
+  color: #333333;
+}
+/* ... (otros estilos) */
+
+/* Estilos para el encabezado (header) y la barra de navegación */
+header {
+  background-color: #333333; /* Color principal */
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF; /* Color del texto del logo */
+}
+
+.nav-links {
+  font-size: 25px;
+  list-style: none;
+  display: inline;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: color 0.3s ease; /* Transición suave del color del enlace */
+}
+
+.nav-link:hover {
+  color: #FFD166; /* Color de acento */
+  border-radius: 5px;
+  background-color: #676161;
+}
+
+/* ... Carrousel */
+
+.carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.active {
+  transform: translateX(0);
+}
+
