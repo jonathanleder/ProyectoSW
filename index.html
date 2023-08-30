@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ITSolutions</title>
-        <link rel="icon" href="assets/icons/ITSolutions.png">
+        <title>NovaByte</title>
+        <link rel="icon" href="assets/icons/NovaByte.png">
         <link rel="stylesheet" type="text/css" href="css/myStyles.css">
     </head>
 <body>
     <header>
         <div class="nav-container">
-            <div><a href="index.html"><img src="assets/icons/ITSolutions.png" height="80px" width="80px"></a></div>
+            <div><a href="index.html" class="logo"><img src="assets/icons/NovaByte.png" height="80px" width="80px"></a></div>
             <nav class="nav-links">
                 <ul>
                     <li><a class="nav-link" href="index.html">Home</a></li>
@@ -31,50 +31,59 @@ realizan, una tira que muestre un resumen de los trabajos que hacemos y una tira
 un resumen de quienes somos.
 -->
     <main>
-        <h1>ITSolutions</h1><br><br>
-
-        
-        <section>
-            <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="slide active">
-                        <img src="ruta-de-la-imagen-1.jpg" alt="Imagen 1">
-                    </div>
-                    <div class="slide">
-                        <img src="ruta-de-la-imagen-2.jpg" alt="Imagen 2">
-                    </div>
-                    <div class="slide">
-                        <img src="ruta-de-la-imagen-3.jpg" alt="Imagen 3">
-                    </div>
+        <h1>NovaByte</h1><br><br>
+        <section class="carousel">
+            <div class="slider" id="slider">
+                <div class="sliderSection">
+                <img class="sliderImg" src="assets/img/trabajoEnEquipo.jpg" alt="Imagen 1">
                 </div>
-                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                <div class="sliderSection">
+                <img class="sliderImg" src="assets/img/trabajoEnEquipo2.jpg" alt="Imagen 2">
+                </div>
+                <div class="sliderSection">
+                <img class="sliderImg" src="assets/img/atCliente.jpg" alt="Imagen 3">
+                </div>
             </div>
-        </section>
+           <div class="sliderBton sliderBtonDer" id="btnDer">&#62;</div>
+           <div class="sliderBton sliderBtonIz" id="btnIz">&#60;</div>
+        </section><br>
         <section>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et, quaerat fugit natus adipisci 
-                    deserunt cumque autem aut, ipsa, odit quia. Quo similique quidem impedit deleniti ipsa architecto sunt cum.
-                    Fuga eum unde voluptatum recusandae rerum nulla dolores rem! Sit voluptatibus quasi sequi illum quaerat! Corporis
-                    eos necessitatibus quibusdam expedita fugiat exercitatione</p>
-                <p>
-                    autem odit aliquid ex dolore tempora, optio tenetur!
-                     Ea repudiandae excepturi numquam minus, magni officiis vitae cum dolore! Consequuntur doloribus qui ratione magni 
-                    ut perspiciatis, esse nostrum quam et quibusdam nisi voluptatem repellat ipsum totam explicabo alias dolorem!
-                </p> 
-            </article>
-            <article>
-                <p>ipsum dolor sit amet consectetur adipisicing elit. Cum, cumque iure? Enim nobis rem laboriosam hic
-                    maxime rerum dicta eveniet nemo quam dignissimos. Tempore repellendus vero atque temporibus, a iure?
-                    Voluptatum, voluptate ad minus a suscipit molestias consequuntur accusantium quis quia. Eaque nihil, explicabo aliquid
-                    deleniti sunt ea hic fugiat officiis illum libero est minima. Labore quas vero nemo ipsum.
-                </p>
-            </article>
+            <div class="section">
+                <h2>Lo que Hacemos</h2>
+                <p>En NovaByte, ofrecemos una variedad de servicios de tecnología y desarrollo diseñados para impulsar tu éxito en la era digital</p>
+                <a href="pages/Servicios.html">Descubre más sobre nuestros servicios</a>
+            </div>
+    
+            <!-- Resumen de Trabajos Realizados -->
+            <div class="section">
+                <h2>Nuestros Trabajos</h2>
+                <p>Hemos tenido el privilegio de trabajar en diversos proyectos que abarcan desde el desarrollo de aplicaciones móviles hasta la optimización de sistemas empresariales.</p>
+                <a href="pages/Clientes.html">Explora nuestros nuestros clientes destacados</a>
+            </div>
+    
+            <!-- Resumen de Quiénes Somos -->
+            <div class="section">
+                <h2>Quiénes Somos</h2>
+                <p>En NovaByte, estamos compuestos por un equipo apasionado y dedicado de expertos en tecnología y desarrollo. Nuestra pasión por la innovación tecnológica nos impulsa a crear soluciones que marcan la diferencia en el mundo empresarial.</p>
+                <p>En NovaByte, valoramos la colaboración, la creatividad y el compromiso con la excelencia. Cada miembro de nuestro equipo aporta su conocimiento único y perspectivas innovadoras, lo que nos permite abordar proyectos con una visión integral y enriquecedora.</p>
+                <a href="pages/ElEquipo.html">Conoce más sobre nuestro equipo</a>
+            </div>       
         </section>
+        
     </main><br><br>
     <footer>
-        Aqui va la propaganda
+        <div>
+            <ul>
+                <li><a href="https://www.youtube.com/@UNRNoficial"><i class="fa-brands fa-youtube fa-lg iconSocial"></i></a></li>
+                <li><a href="https://www.facebook.com/unrn.sedeatlantica"><i class="fa-brands fa-facebook fa-lg iconSocial"></i></a></li>
+                <li><a href="https://twitter.com/unrn"><i class="fa-brands fa-twitter fa-lg iconSocial"></i></a></li>
+                <li><a href="https://www.instagram.com/cesa.unrn/"><i class="fa-brands fa-instagram fa-lg iconSocial"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jonathan-leder-20b628223/"><i class="fa-brands fa-linkedin fa-lg iconSocial"></i></a></li>
+            </ul>
+        </div>
+        <div><h4>&copy NovaByte 2023.</h4></div> 
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/ec4c844211.js" crossorigin="anonymous"></script>
 </body>
 </html>
